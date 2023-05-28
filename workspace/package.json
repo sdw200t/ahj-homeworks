@@ -4,7 +4,9 @@
   "description": "\"Browser based game\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/sdw200t/ahj-homeworks/issues"
   },
-  "homepage": "https://github.com/sdw200t/ahj-homeworks#readme"
+  "homepage": "https://github.com/sdw200t/ahj-homeworks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.2",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "dependencies": {
+    "core-js": "^3.30.2"
+  }
 }
