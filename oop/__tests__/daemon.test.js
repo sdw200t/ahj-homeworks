@@ -3,8 +3,8 @@ import Daemon from '../class/Daemon';
 test('Правильно создается объект', () => {
   const daemon = new Daemon('Daemon');
   const correct = {
-    attack: 25,
-    defence: 25,
+    attack: 10,
+    defence: 40,
     health: 100,
     level: 1,
     name: 'Daemon',

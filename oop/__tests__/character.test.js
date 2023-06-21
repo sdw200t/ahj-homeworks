@@ -11,8 +11,8 @@ test('Ошибка указания типа', () => {
 test('Правильно создается объект', () => {
   const сharacter = new Character('Bowman', 'Bowman');
   const correct = {
-    attack: 25,
-    defence: 25,
+    attack: undefined,
+    defence: undefined,
     health: 100,
     level: 1,
     name: 'Bowman',
