@@ -9,6 +9,8 @@
       "no-param-reassign":"off",
       "import/extensions": "off",
       "no-console":"off",
+      "func-names":"off",
+      "no-plusplus":"off",
       "no-restricted-syntax": [
         "error",
         "LabeledStatement",

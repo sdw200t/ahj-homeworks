@@ -11,26 +11,6 @@ const team = new Team();
 
 team.addAll(unit, unit1, unit2, unit3, unit4);
 
-// team[Symbol.iterator] = function() {
-//    let i = -1;
-//    const arr = this.toArray();
-//    return {
-//        next() {
-//            if (i < arr.length-1) {
-//                i++;
-//                return {
-//                    value: arr[i],
-//                    done: false
-//                }
-//            }
-//
-//            return {
-//                done: true
-//            }
-//        }
-//    }
-// };
-
 for (const item of team) {
   console.log(item);
 }
